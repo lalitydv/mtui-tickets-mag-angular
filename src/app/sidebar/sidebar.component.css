@@ -1,0 +1,49 @@
+.toolbar-item-spacer {
+  flex: 1 1 auto;
+}
+
+.app-container {
+  height: 100vh;
+  margin: 0;
+}
+.app-sidenav {
+  width: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.app-sidenav-content {
+  display: flex;
+  /* height: 100%; */
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mat-toolbar {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sibarimage {
+  width: 225px !important;
+  height: 50px !important;
+}
+.mat-list-item {
+  background: #000;
+}
+.itemcenyter {
+  display: flex !important;
+  justify-content: start !important;
+  gap: 20px;
+  align-items: center;
+}
+
+.mdc-list-item {
+  padding-left: 26px;
+  /* padding-right: 16px; */
+}
+.mat-expansion-panel-header:hover {
+  background: linear-gradient(to right, #54178d, #ed3089);
+}
+.mat-list-item:active {
+  background: linear-gradient(to right, #54178d, #ed3089);
+  color: white;
+}
